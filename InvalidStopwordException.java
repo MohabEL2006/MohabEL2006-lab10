@@ -3,6 +3,6 @@
 
 public class InvalidStopwordException extends Exception {
     public InvalidStopwordException(String stopWord) {
-        super("InvalidStopwordException: Couldn't find stopword: " + stopWord);
+        super("Couldn't find stopword: " + stopWord);
     }
 }

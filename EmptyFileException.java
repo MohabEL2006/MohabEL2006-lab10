@@ -3,6 +3,6 @@
 
 public class EmptyFileException extends Exception {
     public EmptyFileException(String fileName) {
-        super("EmptyFileException: " + fileName + " was empty");
+        super("" + fileName + " was empty");
     }
 }
